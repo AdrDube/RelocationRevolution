@@ -1282,10 +1282,10 @@ input.mail_bt::placeholder {
 
 /* Center the logo and banner content */
 .banner_section .container {
-
+    display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 50vh; /* Full viewport height to center vertically */
     text-align: center;
  }
 .read_bt a {
@@ -1294,3 +1294,17 @@ input.mail_bt::placeholder {
     text-decoration: none;
   
  }
+
+ .button {
+    background-color: #0cb7d6; /* Background color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.button:hover {
+    background-color: #070707; /* Darker background color on hover */
+}

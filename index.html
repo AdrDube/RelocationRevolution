@@ -109,7 +109,7 @@
                      <img src="images/logo.png" class="logo" width="350" height="350">
                      <h1 class="banner_taital">We Pack, We Move, You Relax!</h1>
                      <p class="banner_text">Moving doesn't have to be stressful. Trust us to get you where you’re going—quickly, safely, and with peace of mind.</p>
-                     <div class="read_bt"><a href="#">Read More</a></div>
+                     <div class="read_bt"><a href="#about_us">Read More</a></div>
                   </div>
                </div>
             </div>
@@ -128,46 +128,47 @@
                   <div class="row">
                      <div class="col-md-4">
                         <p class="doctorname_text">Name</p>
-                        <input type="text" class="email_text" placeholder="" name="">
-                     </div>
-                     <div class="col-md-4">
+                        <input type="text" class="email_text" placeholder="Enter your name" name="doctor_name" required>
+                    </div>
+                    <div class="col-md-4">
                         <p class="doctorname_text">Phone Number</p>
-                        <input type="text" class="email_text" placeholder="" name="">
-                     </div>
-                     <div class="col-md-4">
+                        <input type="text" class="email_text" placeholder="Enter your phone number" name="phone_number" required>
+                    </div>
+                    <div class="col-md-4">
                         <p class="doctorname_text">Email</p>
-                        <input type="text" class="email_text" placeholder="" name="">
-                     </div>
-                     <div class="col-md-4">
+                        <input type="email" class="email_text" placeholder="Enter your email" name="email" required>
+                    </div>
+                    <div class="col-md-4">
                         <form>
-                           <div class="form-group">
-                              <p class="doctorname_text">From</p>
-                              <select class="form-control" id="">
-                                 <option>_____</option>
-                                 <option>Grambling</option>
-                                 <option>Ruston</option>
-                                 <option>Monroe</option>
-                                 <option>Shreveport</option>
-                              </select>
-                           </div>
+                            <div class="form-group">
+                                <p class="doctorname_text">From</p>
+                                <select class="form-control" id="from_location" name="from_location" required>
+                                    <option value="" disabled selected>Departure location</option>
+                                    <option value="Grambling">Grambling</option>
+                                    <option value="Ruston">Ruston</option>
+                                    <option value="Monroe">Monroe</option>
+                                    <option value="Shreveport">Shreveport</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p class="doctorname_text">To</p>
+                                <select class="form-control" id="to_location" name="to_location" required>
+                                    <option value="" disabled selected>Destination location</option>
+                                    <option value="Grambling">Grambling</option>
+                                    <option value="Ruston">Ruston</option>
+                                    <option value="Monroe">Monroe</option>
+                                    <option value="Shreveport">Shreveport</option>
+                                </select>
+                            </div>
                         </form>
-                           <div class="form-group">
-                              <p class="doctorname_text">To</p>
-                              <select class="form-control" id="">
-                                 <option>______</option>
-                                 <option>Grambling</option>
-                                 <option>Ruston</option>
-                                 <option>Monroe</option>
-                                 <option>Shreveport</option>
-                              </select>
-                           </div>
-                        </form>
-                     </div>
-                     
-                     <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
                         <p class="doctorname_text">Choose Date</p>
-                        <input id="datepicker" placeholder="Select Date" width="270" />
-                     </div>
+                        <input id="datepicker" placeholder="Select Date" width="270" name="appointment_date" required>
+                    </div>
+                    <div class="col-md-4">
+                     <button type="submit" class="button" form="transportForm" >Submit</button>
+                 </div>
                   </div>
                </div>
             </div>
@@ -181,7 +182,6 @@
                <div class="col-md-6">
                   <h1 class="about_taital">About Us</h1>
                   <p class="about_text"> At Relocation Movers, we stand out through our commitment to transparency, exceptional care, and reliable service. With upfront pricing and no hidden fees, we ensure every move is stress-free. Our licensed, insured professionals treat your belongings with the utmost care, while our eco-friendly practices and efficient planning make the process seamless. Dedicated to continuous improvement, we strive to deliver the highest quality service, earning your trust with every move.</p>
-                  <div class="about_bt"><a href="#">Read More</a></div>
                </div>
                <div class="col-md-6">
                   <div class="about_img"><img src="images/about-img.png"></div>
