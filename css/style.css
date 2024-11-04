@@ -202,7 +202,7 @@ button {
 }
 
 .layout_padding {
-    padding-top: 100px;
+    padding-top: 90px;
     padding-bottom: 0px;
 }
 
@@ -218,7 +218,7 @@ button {
     display: flex;
     background-color: #0cb7d6;
     height: auto;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 .header_top_main {
@@ -290,7 +290,7 @@ button {
     background-image: url(../images/banner-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 .header_bg {
@@ -417,10 +417,10 @@ button {
 .banner_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
-    padding-top: 90px;
+    padding-top: 40px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1270,3 +1270,27 @@ input.mail_bt::placeholder {
 .margim_90 {
     margin: 90px 0px;
 }
+
+
+/* Style the logo image */
+.logo {
+    align-items: center;
+    justify-content: center;
+    object-fit: cover; 
+}
+
+
+/* Center the logo and banner content */
+.banner_section .container {
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+ }
+.read_bt a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+  
+ }
